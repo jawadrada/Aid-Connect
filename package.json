@@ -1,0 +1,14 @@
+{
+  "name": "aid-connect",
+  "version": "1.0.0",
+  "description": "Directory of non-profit organizations operating in Gaza and Lebanon, providing users with easy access to information, donation options, and volunteer opportunities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
