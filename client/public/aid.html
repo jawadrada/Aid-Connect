@@ -5,11 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aid Organization Details</title>
     <link rel="stylesheet" href="/style.css">
-    <script defer src="/scripts/header.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
     <script defer src="/scripts/aid.js"></script>
 </head>
 <body>
-    <header></header>
+    <header class="container-fluid header-container">
+        <nav>
+          <ul>
+            <li><img class="image" src="/logo.webp" /></li>
+            <li><strong><h1 class="header-h1">Aid Connect</h1></strong></li>
+          </ul>
+          <ul>
+            <li><button class="secondary header-button" onclick="location.href='/'">Home</button></li>
+          </ul>
+        </nav>
+
+        <div class="container-fluid">
+            <p class="header-description">Directory of non-profit organizations operating in Gaza and Lebanon, providing users with easy access to information, donation options, and volunteer opportunities.</p>
+          </div>
+      </header>
 
     <main id="gift-content" class="gift-info">
         <div class="image-container">
@@ -17,6 +31,8 @@
         </div>
         <div class="gift-details">
             <h2 id="name"></h2>
+            <a id="donationLink" target="_blank">Donate</a>
+            <a id="volunteerLink" target="_blank">Volunteer</a>
             <p id="submittedBy"></p>
             <p id="submittedOn"></p>
             <p id="description"></p>
