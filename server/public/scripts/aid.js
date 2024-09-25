@@ -11,6 +11,8 @@ const renderAid = async () => {
     if (aid) {
         document.getElementById('image').src = aid.image
         document.getElementById('name').textContent = aid.name
+        document.getElementById('donationLink').href = aid.donationLink;
+        document.getElementById('volunteerLink').href = aid.volunteerLink;
         document.getElementById('submittedBy').textContent = 'Submitted by: ' + aid.submittedBy
         document.getElementById('description').textContent = aid.description
         document.title = `Aid Connect - ${aid.name}`

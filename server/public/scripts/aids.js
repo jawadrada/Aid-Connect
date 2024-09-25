@@ -1,9 +1,4 @@
-
-// TODO: Add donation Link to the card
-// TODO: Add real data with valid image URLs
-// TODO: ReStyle the site add a banner at the top with picocss
-// TODO: Finish remaining lab steps 8-10
-// TODO: The web app displays at least five list items, each with at least three attributes (such as title, text, and image URL)
+// TODO: Submit with a README.md file
 
 const renderAids = async () => {
     const response = await fetch('/aids')
@@ -22,14 +17,21 @@ const renderAids = async () => {
             const bottomContainer = document.createElement('div')
             bottomContainer.classList.add('bottom-container')
 
-            // Invalid URL
             topContainer.style.backgroundImage = `url(${aid.image})`
 
             const name = document.createElement('h3')
             name.textContent = aid.name
             bottomContainer.appendChild(name)
 
-            // donationLink
+            const donationLinkContainer = document.createElement('div');
+            donationLinkContainer.classList.add('link-container');
+            const donationLink = document.createElement('a');
+            donationLink.textContent = 'Donate now';
+            donationLink.setAttribute('role', 'button');
+            donationLink.href = `${aid.donationLink}`;
+            donationLink.classList.add('donation-button');
+            donationLinkContainer.appendChild(donationLink);
+            bottomContainer.appendChild(donationLinkContainer);
 
             const link = document.createElement('a')
             link.textContent = 'Read More >'

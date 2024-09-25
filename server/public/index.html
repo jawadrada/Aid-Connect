@@ -1,14 +1,33 @@
 <!DOCTYPE html>
-  <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aid Connect</title>
     <link rel="icon" type="image/x-icon" href="/logo.webp">
-    <script defer src="/scripts/header.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
     <script defer src="/scripts/aids.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-s_Bk4iR3.css">
-  </head>
+  <link rel="stylesheet" crossorigin href="/assets/index-dB3Ein5U.css">
+</head>
 
-  <body>
-    <header></header>
+<body>
+    <header class="container-fluid header-container">
+      <nav>
+        <ul>
+          <li><img class="image" src="/logo.webp" /></li>
+          <li><strong><h1 class="header-h1">Aid Connect</h1></strong></li>
+        </ul>
+        <ul>
+          <li><button class="secondary header-button" onclick="location.href='/'">Home</button></li>
+        </ul>
+      </nav>
+
+      <div class="container-fluid">
+        <p class="header-description">Directory of non-profit organizations operating in Gaza and Lebanon, providing users with easy access to information, donation options, and volunteer opportunities.</p>
+      </div>
+    </header>
+
     <main id="main-content"></main>
-  </body>
+</body>
 </html>
+
