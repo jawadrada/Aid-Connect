@@ -1,5 +1,3 @@
-// TODO: Submit with a README.md file
-
 const renderAids = async () => {
     const response = await fetch('/aids')
     const data = await response.json()
