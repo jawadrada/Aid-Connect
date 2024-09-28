@@ -8,7 +8,6 @@
 
 /* Header CSS */
 .header-container {
-  border-bottom: 3px solid black;
   margin-bottom: 50px;
 }
 
@@ -29,7 +28,7 @@
 
 .header-description {
   font-size: 1em;
-  color: black;
+  color: lightslategray;
   font-weight: bold;
   text-align: center;
 }
