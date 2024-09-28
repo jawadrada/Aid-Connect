@@ -1,4 +1,5 @@
 import express from 'express';
+import './config/dotenv.js';
 import aidsRouter from './routes/aids.js'
 const app = express();
 
@@ -16,7 +17,7 @@ app.get('/', (req, res) => {
 
 app.use('/aids', aidsRouter)
 
-const PORT = process.env.PORT || 3001
+const PORT = process.env.PORT || 5000;
     
 app.listen(PORT, () => {
     console.log(`🚀 Server listening on http://localhost:${PORT}`)
