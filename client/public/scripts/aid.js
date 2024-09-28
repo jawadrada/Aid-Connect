@@ -3,6 +3,8 @@ const renderAid = async () => {
     const response = await fetch('/aids')
     const data = await response.json()
 
+    console.log(data)
+
     const aidContent = document.getElementById('gift-content')
 
     let aid
@@ -11,9 +13,9 @@ const renderAid = async () => {
     if (aid) {
         document.getElementById('image').src = aid.image
         document.getElementById('name').textContent = aid.name
-        document.getElementById('donationLink').href = aid.donationLink;
-        document.getElementById('volunteerLink').href = aid.volunteerLink;
-        document.getElementById('submittedBy').textContent = 'Submitted by: ' + aid.submittedBy
+        document.getElementById('donationLink').href = aid.donationlink;
+        document.getElementById('volunteerLink').href = aid.volunteerlink;
+        document.getElementById('submittedBy').textContent = 'Submitted by: ' + aid.submittedby
         document.getElementById('description').textContent = aid.description
         document.title = `Aid Connect - ${aid.name}`
     }

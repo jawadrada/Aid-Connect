@@ -8,12 +8,12 @@ async function createAidsTable() {
 
     CREATE TABLE IF NOT EXISTS aids (
         id SERIAL PRIMARY KEY,
-        name VARCHAR(255) NOT NULL,
+        name TEXT NOT NULL,
         image TEXT NOT NULL,
-        donationLink TEXT NOT NULL,
-        volunteerLink TEXT NOT NULL,
+        donationLink VARCHAR(500) NOT NULL,
+        volunteerLink VARCHAR(500) NOT NULL,
         description TEXT NOT NULL,
-        submittedBy VARCHAR(255) NOT NULL,
+        submittedBy VARCHAR(500) NOT NULL,
         submittedOn TIMESTAMP NOT NULL
     )
     `
