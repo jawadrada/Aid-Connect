@@ -14,7 +14,7 @@ The following **required** functionality is completed:
 - [x] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
 - [x] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items**
 - [x] **The PostgreSQL database includes a table that matches the data displayed in the web app**
-  - [ ] **NOTE: Your GIF or a screenshot added to the README must include a view of your Railway database that shows the contents of the table used by your app**
+  - [x] **NOTE: Your GIF or a screenshot added to the README must include a view of your Railway database that shows the contents of the table used by your app**
 
 The following **optional** features are implemented:
 
@@ -28,7 +28,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+https://www.loom.com/share/bd3c5fae78654756b14be112ffdc3730?sid=58ea2691-d1fd-4c35-8803-9e744a63a1b4
+
+<img width="1429" alt="Screenshot 2024-09-28 at 5 30 48 PM" src="https://github.com/user-attachments/assets/f7cfd4c2-e1f9-4e7f-af8b-8dade5dbd755">
+
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  GIF tool here
