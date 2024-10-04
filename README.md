@@ -1,50 +1,26 @@
-# WEB103 Project 2 - *Aid-Connect*
+# *Aid-Connect*
 
-Submitted by: **Jawad Rada**
+**About this web app:** Aid-Connect is a directory of non-profit organizations operating in Gaza and Lebanon, providing users with easy access to information, donation options, and volunteer opportunities.
 
-About this web app: **Aid-Connect is a directory of non-profit organizations operating in Gaza and Lebanon, providing users with easy access to information, donation options, and volunteer opportunities.**
 
-Time spent: **4** hours
+## Features
 
-## Required Features
+- **Homepage**: Displays a list of aid organizations along with relevant information.
+- **Organization Details**: Clicking on a specific organization routes the user to a dedicated page (e.g., `/aid/1`).
+- **404 Handling**: Routes that don't exist redirect users to a custom 404 error page.
+- **Database**: Utilizes a PostgreSQL database for data management, hosted on Railway.
 
-The following **required** functionality is completed:
 
-<!-- Make sure to check off completed functionality below -->
-- [x] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
-- [x] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items**
-- [x] **The PostgreSQL database includes a table that matches the data displayed in the web app**
-  - [x] **NOTE: Your GIF or a screenshot added to the README must include a view of your Railway database that shows the contents of the table used by your app**
+## Tech Stack
+- **Languages**: HTML, CSS, JavaScript  
+- **Database**: PostgreSQL  
+- **Tools**: Railway, Git  
 
-The following **optional** features are implemented:
-
-- [ ] The user can search for items with a specific attribute
-
-The following **additional** features are implemented:
-
-- [ ] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented required features:
-
 https://www.loom.com/share/bd3c5fae78654756b14be112ffdc3730?sid=58ea2691-d1fd-4c35-8803-9e744a63a1b4
 
-<img width="1429" alt="Screenshot 2024-09-28 at 5 30 48 PM" src="https://github.com/user-attachments/assets/f7cfd4c2-e1f9-4e7f-af8b-8dade5dbd755">
-
-
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  GIF tool here
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
-
-## Notes
-
-Describe any challenges encountered while building the app or any additional context you'd like to add.
-
-- I had a issue with connecting to the railway database because of my wifi connection
 
 ## License
 
